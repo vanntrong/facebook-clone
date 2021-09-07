@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: var(--primary-color);
+}
+
+.header__nav-left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__logo {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.header__logo-link {
+  text-decoration: none;
+  color: transparent;
+}
+
+.header__logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.header__search {
+  background-color: #3a3b3c;
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: #9ea1a6;
+}
+.header__search-img {
+  width: 15px;
+  margin: 10px;
+}
+.header__search-input {
+  width: 100%;
+  font-size: 15px;
+  background-color: transparent;
+  outline: none;
+  padding: 0 5px;
+  border: 0;
+}
+
+.header__nav-center {
+  width: 545px;
+  height: 100%;
+  margin: 0 160px;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header__nav-item {
+  max-width: 110px;
+  min-width: 50px;
+}
+
+.header-item-icon {
+  color: #fff;
+  fill: #b0b3b8;
+}
+
+.header__nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-user {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-user-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.header__nav-user-name {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+.header__nav-menu {
+}
+
+.header-menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
