@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #242526;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.online {
+  position: relative;
+}
+
+.online::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #31a24c;
+  top: 0;
+  right: 0;
+}
