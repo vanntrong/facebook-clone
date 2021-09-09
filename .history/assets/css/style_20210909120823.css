@@ -173,9 +173,6 @@
   flex-basis: 25%;
   position: relative;
   margin-left: 12px;
-  position: fixed;
-  left: 0;
-  width: 25%;
 }
 
 .imp-links {
@@ -280,7 +277,6 @@
 .main-content {
   flex-basis: 47%;
   padding: 0 80px;
-  margin: 0 auto;
 }
 
 .right-sidebar {
@@ -288,9 +284,6 @@
   color: #e4e6eb;
   background-color: #242526;
   margin-right: 12px;
-  position: fixed;
-  width: 25%;
-  right: 0;
 }
 
 .right-sidebar a {
