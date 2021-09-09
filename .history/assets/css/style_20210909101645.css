@@ -535,56 +535,20 @@
 
 .new-post-img {
   width: 100%;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .new-post-status {
   display: flex;
   justify-content: space-between;
   padding: 12px;
-  border-bottom: 2px solid #3a3b3c;
 }
 .new-post-like {
-  display: flex;
-  align-items: center;
-}
-.new-post-status-quantity {
-  color: #b0b3b8;
-  font-size: 14px;
-  margin-left: 8px;
 }
 .new-post-cmt {
-  font-size: 15px;
-  color: #b0b3b8;
 }
 .new-post-status-img {
-  width: 18px;
 }
-
-.new-post-btn {
-  display: flex;
-  justify-content: space-between;
-  padding: 6px 12px;
+.new-post-comment {
 }
-.btn-action {
-  flex-basis: 33.333%;
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 6px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-action:hover {
-  background-color: #4b4c4d;
-}
-.btn-action span {
-  margin-left: 12px;
-  color: #b0b3b8;
-  font-weight: 400;
-}
-.btn-like {
-  width: 20px;
+.new-post-share {
 }

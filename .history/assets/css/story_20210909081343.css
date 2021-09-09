@@ -1,0 +1,88 @@
+.story-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.story {
+  flex-basis: 15.5%;
+  padding-top: 32%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: scale3d ease-in 0.2s;
+}
+
+.story:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.story-img {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 4px solid #2e89ff;
+}
+
+.story-img-me {
+  border: 4px solid #242526;
+  top: unset;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+}
+
+.story-status {
+  position: absolute;
+  width: 100%;
+  color: #e4e6eb;
+  text-align: center;
+  bottom: 10px;
+}
+
+.story-next {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: #a8aaae;
+  right: 0;
+  bottom: 50%;
+  width: 40px;
+  justify-content: center;
+  height: 40px;
+  background-color: #3e4042;
+  border-radius: 50%;
+  transform: translateY(50%);
+}
+
+.story1 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url("https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.6435-9/210197760_1699894010195731_8413836282276662202_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=KiDSox-Ka3YAX96GBwV&_nc_ht=scontent.fsgn13-2.fna&oh=6844667b80910f0e82dc5ca2bcf35d87&oe=615F4ED5");
+}
+
+.story2 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("../images/status-2.png");
+}
+
+.story3 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("../images/status-3.png");
+}
+
+.story4 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("../images/status-4.png");
+}
+
+.story5 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("../images/status-5.png");
+}
+
+.story6 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("../images/status-6.png");
+}
