@@ -34,8 +34,9 @@ html {
   position: absolute;
   content: "";
   width: 100%;
-  height: 30px;
-  bottom: -10px;
+  height: 10px;
+  background-color: red;
+  top: 0;
 }
 
 .has-sub-menu:hover .header-sub-menu {

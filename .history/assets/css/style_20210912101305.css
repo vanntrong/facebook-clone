@@ -652,7 +652,7 @@
   line-height: 18px;
   cursor: pointer;
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
-  display: none;
+  /* display: none; */
 }
 
 .menu-list-top {
@@ -793,7 +793,4 @@
   display: inline-block;
   position: absolute;
   top: -3px;
-}
-.icon-dot i {
-  font-size: 2px;
 }
